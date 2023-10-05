@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  background-color: #5c94fc; /* Azul del cielo en Mario Bros */
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: 'Press Start 2P', cursive; /* Fuente que recuerda a los videojuegos */
+}
+
+.freecodecamp-logo-contenedor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.freecodecamp-logo {
+  height: 50px;
+}
+
+.contenedor-principal {
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9dd3f; /* Color de fondo oscuro */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(253, 251, 251, 0.1); /* Sombra */
+}
+
+.bloque {
+  width: 50px;
+  height: 50px;
+  background-color: #e61d23; /* Rojo, color del traje de Mario */
+  border: 2px solid #1d1d1d; /* Borde oscuro */
+  box-shadow: 0 0 5px rgba(252, 251, 251, 0.3); /* Sombra */
+  margin: 5px;
+}
+
+.personaje {
+  width: 50px;
+  height: 80px;
+  background-color: #ffcc00; /* Amarillo, color de los botones de Mario */
+  border: 2px solid #fffbfb; /* Borde oscuro */
+  box-shadow: 0 0 5px rgba(233, 227, 227, 0.3); /* Sombra */
+  margin-top: 20px;
+}

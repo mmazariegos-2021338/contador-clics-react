@@ -1,0 +1,28 @@
+/* Estilos generales para botones */
+button {
+  width: 250px;
+  height: 80px;
+  font-size: 35px;
+  font-family: 'Press Start 2P', cursive; /* Fuente que recuerda a los videojuegos */
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el hover del botón */
+button:hover {
+  background-color: #ff9900; /* Verde similar al color de los bloques en Mario Bros */
+}
+
+/* Estilos para el botón de clic */
+.boton-clic {
+  background-color: #002ead; /* Azul similar al color del traje de Mario */
+}
+
+/* Estilos para el botón de reiniciar */
+.boton-reiniciar {
+  background-color: #5a01a7; /* Morado similar al color del fondo en algunos niveles de Mario Bros */
+}
